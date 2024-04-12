@@ -37,7 +37,7 @@ jobs:
         with:
           name: github-pages
           # Path of the directory containing the static assets.
-          path: downloads/
+          path: downloads/index.html
       - name: Deploy GitHub Pages site
         uses: actions/deploy-pages@v4.0.5
         with:
